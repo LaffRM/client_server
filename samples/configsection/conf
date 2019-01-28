@@ -1,0 +1,19 @@
+#Тестовый файл конфигурации
+[global]
+#глобальные параметры
+ip     = 127.0.0.1
+port   = 5972
+
+[local]
+#локальные параметры
+ip      = 127.0.0.1
+port    = 3270
+timeout = 400
+log     = log_file
+blog    = blog_file
+
+[other]
+ip      = 0.0.0.0
+port    = 1111
+timeout = 222
+log     = other_log
